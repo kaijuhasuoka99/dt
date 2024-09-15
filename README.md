@@ -1,1 +1,1 @@
-# dt
+# Simple Decision Transformer Implementation
