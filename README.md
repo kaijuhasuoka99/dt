@@ -108,6 +108,7 @@ Paper:
 - Decision Transformer ([https://arxiv.org/abs/2106.01345](https://arxiv.org/abs/2106.01345))
 - RT-1 ([https://robotics-transformer1.github.io/](https://robotics-transformer1.github.io/))
 - Gato ([https://arxiv.org/abs/2205.06175](https://arxiv.org/abs/2205.06175))
+
 Code:
 - Official codebase for Decision Transformer ([https://github.com/kzl/decision-transformer](https://github.com/kzl/decision-transformer))
 
