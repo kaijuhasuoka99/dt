@@ -21,7 +21,18 @@ The `data.zip` file contains a file named `breakoutnoframeskip_v4.pkl`, which in
 The `weights.zip` file contains the parameters of the Decision Transformer that have been trained on that data. 
 Please extract and use each of them.
 
-## How to Collect Demonstration Data
+## Usage
+### Test
+If you want to perform a test play with trained parameters, please use the following command.
+```bash
+python test.py --env_name [ENVIRONMENT_NAME] --load_weights_folder [LOAD_WEIGHTS_FOLDER]
+```
+Please set the appropriate environment name and folder for each option. Only the `NoFrameskip-v4` Atari environments can be used with this implementation.
+
+## Training
+If you want to start training from scratch, run `train.py`. You can check the options by running `python train.py -h`. Make sure to set an appropriate file for `--file_path`. Depending on your machine specifications, configure the `DecisionTransformerConfig` class in `dt/dt.py` accordingly.
+
+### How to Collect Demonstration Data
 Here, we provide an example of how to collect demonstration data. Please note that the code shown here will not work if executed as is, so use it for reference only.
 ```python
 import pickle
