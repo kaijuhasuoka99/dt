@@ -83,23 +83,24 @@ with open(file_name, 'wb') as f:
 ```
 
 ## Results
-<table>
-	<tbody>
-		<tr>
-			<td colspan="3" style="text-align: center;">BreakoutNoFrameskip-v4</td>
-			<td style="text-align: center;">BreakoutNoFrameskip-v4</td>
-		</tr>
-		<tr>
-			<td><img src="./gifs/breakoutnoframeskip_v4_0.gif"></td>
-			<td><img src="./gifs/breakoutnoframeskip_v4_1.gif"></td>
-			<td><img src="./gifs/breakoutnoframeskip_v4_2.gif"></td>
-			<td rowspan="2"><img src="./plots/breakoutnoframeskip_v4.png"></td>
-		</tr>
-		<tr>
-			<td><img src="./gifs/breakoutnoframeskip_v4_3.gif"></td>
-			<td><img src="./gifs/breakoutnoframeskip_v4_4.gif"></td>
-			<td><img src="./gifs/breakoutnoframeskip_v4_5.gif"></td>
-		</tr>
-	</tbody>
+<table style="text-align: center;">
+    <tbody>
+        <tr>
+            <td colspan="3">BreakoutNoFrameskip-v4</td>
+            <td>BreakoutNoFrameskip-v4</td>
+        </tr>
+        <tr>
+            <td><img src="./gifs/breakoutnoframeskip_v4_0.gif"></td>
+            <td><img src="./gifs/breakoutnoframeskip_v4_1.gif"></td>
+            <td><img src="./gifs/breakoutnoframeskip_v4_2.gif"></td>
+            <td rowspan="2"><img src="./plots/breakoutnoframeskip_v4.png"></td>
+        </tr>
+        <tr>
+            <td><img src="./gifs/breakoutnoframeskip_v4_3.gif"></td>
+            <td><img src="./gifs/breakoutnoframeskip_v4_4.gif"></td>
+            <td><img src="./gifs/breakoutnoframeskip_v4_5.gif"></td>
+        </tr>
+    </tbody>
 </table>
+
 
