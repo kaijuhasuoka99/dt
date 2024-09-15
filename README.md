@@ -81,3 +81,22 @@ while True:
 with open(file_name, 'wb') as f:
     pickle.dump(episodes, f)
 ```
+
+## Results
+<table>
+	<tbody>
+		<tr>
+			<td colspan="2">BreakoutNoFrameskip-v4</td>
+			<td>BreakoutNoFrameskip-v4</td>
+		</tr>
+		<tr>
+			<td><img src="./gifs/breakoutnoframeskip_v4_0.gif"></td>
+			<td><img src="./gifs/breakoutnoframeskip_v4_1.gif"></td>
+			<td rowspan="2"><img src="./plots/breakoutnoframeskip_v4.png"></td>
+		</tr>
+		<tr>
+			<td><img src="./gifs/breakoutnoframeskip_v4_2.gif"></td>
+			<td><img src="./gifs/breakoutnoframeskip_v4_3.gif"></td>
+		</tr>
+	</tbody>
+</table>
