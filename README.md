@@ -86,8 +86,8 @@ with open(file_name, 'wb') as f:
 <table>
     <tbody>
         <tr>
-            <td colspan="3" style="text-align: center;">BreakoutNoFrameskip-v4</td>
-            <td style="text-align: center;">BreakoutNoFrameskip-v4</td>
+            <th colspan="3">BreakoutNoFrameskip-v4</th>
+            <th>BreakoutNoFrameskip-v4</th>
         </tr>
         <tr>
             <td><img src="./gifs/breakoutnoframeskip_v4_0.gif"></td>
