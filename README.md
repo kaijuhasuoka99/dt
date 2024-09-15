@@ -83,11 +83,11 @@ with open(file_name, 'wb') as f:
 ```
 
 ## Results
-<table style="text-align: center;">
+<table>
     <tbody>
         <tr>
-            <td colspan="3">BreakoutNoFrameskip-v4</td>
-            <td>BreakoutNoFrameskip-v4</td>
+            <td colspan="3" style="text-align: center;">BreakoutNoFrameskip-v4</td>
+            <td style="text-align: center;">BreakoutNoFrameskip-v4</td>
         </tr>
         <tr>
             <td><img src="./gifs/breakoutnoframeskip_v4_0.gif"></td>
