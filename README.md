@@ -3,7 +3,7 @@
 ## Description
 This is a code implementation based on the [Decision Transformer](https://arxiv.org/abs/2106.01345).
 
-We collected demonstration data for Atari Breakout using a model trained with [PPO]().
+We collected demonstration data for Atari Breakout using a model trained with [PPO](https://github.com/kaijuhasuoka99/rl_learning/tree/main/atari/ppo).
 The Decision Transformer is a reinforcement learning method that conditions actions based on rewards to achieve those rewards, but the improvement in accuracy through this method has not been thoroughly demonstrated.
 In that regard, there are several examples of imitation learning without using rewards, implemented with a similar architecture, such as [RT-1](https://robotics-transformer1.github.io/) and [Gato](https://arxiv.org/abs/2205.06175).
 Instead of using rewards, learning from high-quality demonstration data yields better results.
